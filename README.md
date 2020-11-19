@@ -127,6 +127,13 @@ Params: vehicle_no , vehicle_type
 Route description: POST Request to allocate the slot to the user. 
 
 
+Commands :
+
+> go build
+> ./parking_services
+
+
+
 
 
 
