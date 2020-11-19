@@ -1,7 +1,7 @@
 # parking_services
 Parking Allotment Services
 
-Database Schema :  Mentioned in the /data folder with some sample test data
+Database Schema : Mentioned in the /data folder with some sample test data
 
 Below are my assumptions behing the design and implementations:
 
