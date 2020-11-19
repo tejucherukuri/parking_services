@@ -28,6 +28,16 @@ For further extensible way:
 
 API Routes : 
 
+
+API Route to check if the server is up without any database configuration:
+
+Route API : http://localhost:4646/health
+
+Response: 
+        {
+        "status": "OK"
+        }
+        
 1.
 
 Route API : http://localhost:4646/fetchallocatedunits
