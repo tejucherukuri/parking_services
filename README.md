@@ -1,7 +1,7 @@
 # parking_services
 Parking Allotment Services
 
-Database Schema :  Mentioned in the /data folder with some sample test data
+Database Schema : Mentioned in the /data folder with some sample test data
 
 Below are my assumptions behing the design and implementations:
 
@@ -125,6 +125,13 @@ Route API:
 Params: vehicle_no , vehicle_type
 
 Route description: POST Request to allocate the slot to the user. 
+
+
+Commands :
+
+> go build
+> ./parking_services
+
 
 
 
