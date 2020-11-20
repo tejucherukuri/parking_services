@@ -74,6 +74,7 @@ func (this *ParkingAllotmentController) AllocateUserSlot() {
 			"msg": "Couldn't generate a parking slot for the user.",
 		}
 	} else {
+		/*TODO: Return the user slot allocated instead of static content with status */
 		this.Data["json"] = &map[string]string{
 			"msg": "User Entry Successfully Created",
 		}
