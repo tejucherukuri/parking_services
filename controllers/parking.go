@@ -68,7 +68,7 @@ func (this *ParkingAllotmentController) AllocateUserSlot() {
 		Status: "active",
 		IsActive: true,
 	}
-	_, err := db.InsertB(userslot.)
+	_, err := db.InsertB(userslot)
 	if (err != nil) {
         this.Data["json"] = &map[string]string{
 			"msg": "Couldn't generate a parking slot for the user.",
